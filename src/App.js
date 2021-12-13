@@ -1,23 +1,80 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './styles/styles.css'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="app">
+      <header id="main-header">
+        <div className="container">
+          <h1>Knowledge Resume</h1>
+          <h3><i className="far fa-user"></i> Mayra Rincones</h3>
+        </div>
       </header>
+
+      <section id="timeline">
+        <ul>
+          <li>
+            <div>
+              <h3><i className="fas fa-chevron-right"></i>Title</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam excepturi saepe nulla harum veritatis, consequuntur error repudiandae optio. Repudiandae, quaerat.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3><i className="fas fa-chevron-right"></i>Title</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam excepturi saepe nulla harum veritatis, consequuntur error repudiandae optio. Repudiandae, quaerat.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3><i className="fas fa-chevron-right"></i>Title</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam excepturi saepe nulla harum veritatis, consequuntur error repudiandae optio. Repudiandae, quaerat.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3><i className="fas fa-chevron-right"></i>Title</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam excepturi saepe nulla harum veritatis, consequuntur error repudiandae optio. Repudiandae, quaerat.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3><i className="fas fa-chevron-right"></i>Title</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam excepturi saepe nulla harum veritatis, consequuntur error repudiandae optio. Repudiandae, quaerat.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3><i className="fas fa-chevron-right"></i>Title</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam excepturi saepe nulla harum veritatis, consequuntur error repudiandae optio. Repudiandae, quaerat.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3><i className="fas fa-chevron-right"></i>Title</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam excepturi saepe nulla harum veritatis, consequuntur error repudiandae optio. Repudiandae, quaerat.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3><i className="fas fa-chevron-right"></i>Title</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam excepturi saepe nulla harum veritatis, consequuntur error repudiandae optio. Repudiandae, quaerat.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3><i className="fas fa-chevron-right"></i>Title</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam excepturi saepe nulla harum veritatis, consequuntur error repudiandae optio. Repudiandae, quaerat.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3><i className="fas fa-chevron-right"></i>Title</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam excepturi saepe nulla harum veritatis, consequuntur error repudiandae optio. Repudiandae, quaerat.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
     </div>
   );
 }
